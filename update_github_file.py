@@ -11,6 +11,20 @@ DEST_FILE_PATH = "LX19OKTOBER2025"
 COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
 GIT_BRANCH = "main"
 
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX20OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX21OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
 # --- KONSTANTA FOOTER ---
 def generate_footer():
     """Buat footer dinamis sesuai nama file."""
