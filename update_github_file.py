@@ -25,6 +25,69 @@ DEST_FILE_PATH = "LX21OKTOBER2025"
 COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
 GIT_BRANCH = "main"
 
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX22OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX23OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX24OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX25OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX26OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX27OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX28OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX29OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
+GITHUB_TOKEN = os.getenv('GITHUB_PAT')  # Ambil token dari environment variable
+SOURCE_URL = "https://raw.githubusercontent.com/uppermoon77/lazyloxy/refs/heads/main/lazylazyloxy"
+DEST_REPO = "uppermoon77/lazyloxy"  # Format: "username/repository"
+DEST_FILE_PATH = "LX30OKTOBER2025"
+COMMIT_MESSAGE = "Auto update: Sync playlist from source + footer update"
+GIT_BRANCH = "main"
+
 # --- KONSTANTA FOOTER ---
 def generate_footer():
     """Buat footer dinamis sesuai nama file."""
